@@ -1,0 +1,64 @@
+body{
+  background-color:black;
+  margin:0;
+}
+h1{
+  color:white;
+  margin:0;
+}
+
+.introsection{
+  padding: 0 0 30% 0;
+  display: block;
+}
+
+a:link {
+  color:white;
+  background-color:#1a1c20;
+  text-decoration: none;
+  border-radius: 30px;
+  padding:0 10px;
+}
+
+a:visited {
+  color: white;
+  background-color:#1a1c20;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.logoimg{
+  display: block;
+  width:100%;
+}
+
+.introtxt{
+  text-align:center;
+  font-size: 35px;
+  /* display: inline-block; */
+}
+
+.linkclickani{
+  border-width: 2px;
+  border-color:white;
+  border-style: solid;
+}
+
+.linkclickani:hover{
+  animation: linkclick 5s infinite;
+}
+
+@keyframes linkclick {
+  0%,100%{
+    background-color: #ff1b1b;
+  }
+  25%{
+    background-color: orange;
+  }
+  50%{
+    background-color: green;
+  }
+  75%{
+    background-color: blue;
+  }
+}
